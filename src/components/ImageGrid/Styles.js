@@ -21,6 +21,16 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
         justifyContent: 'space-around'
     },
+    text: {
+        margin: hp('2%')
+    },
+    error: {
+        backgroundColor: 'lightsalmon',
+        padding: 10,
+        borderRadius: 4,
+        borderColor: 'tomato',
+        borderWidth: 1,
+    }
 })
 
 export default styles;

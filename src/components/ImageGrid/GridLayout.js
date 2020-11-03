@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import { View, Image, Text, TouchableOpacity } from 'react-native';
-import {
-    widthPercentageToDP as wp,
-    heightPercentageToDP as hp,
-} from 'react-native-responsive-screen';
-
 import styles from './Styles.js';
 
 const GridLayout = ({ image, width }) => {
